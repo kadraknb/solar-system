@@ -7,6 +7,7 @@ class Title extends React.Component {
     return (<h2>{headline}</h2>);
   }
 }
+
 Title.propTypes = {
   headline: PropTypes.string.isRequired,
 };
