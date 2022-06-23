@@ -1,5 +1,3 @@
-/* eslint-disable no-multiple-empty-lines */
-
 import React from 'react';
 import Title from './Title';
 import planets from '../data/planets';
@@ -18,4 +16,5 @@ class SolarSystem extends React.Component {
       </div>);
   }
 }
+
 export default SolarSystem;
